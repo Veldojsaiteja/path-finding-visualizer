@@ -1,0 +1,7 @@
+what is difference between jsx and js -- done
+what is callback vs promise vs async, await
+what is hooks, props, contextAPI --done
+what is reactjs , is it a framework or library? --done 
+what is difference between class component and functional component, syntaxtial difference, also after this qn, see about life cycle methods in both class & functional components. -- done
+what is npm, node? --node
+difference between package.json, package-lock.json -- done

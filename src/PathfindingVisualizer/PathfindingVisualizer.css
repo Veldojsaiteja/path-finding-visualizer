@@ -1,0 +1,119 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+.grid-container {
+  margin-top: 3%;
+  margin-left: 3.5%;
+  margin-bottom: 0%;
+}
+select {
+  padding: 8px;
+  font-size: 16px;
+  font-family: Poppins;
+  border: 2px solid #888;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #333;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+select:hover {
+  border-color: #555;
+}
+
+/* Focus Effect */
+select:focus {
+  outline: none;
+  border-color: #007bff;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); 
+}
+.grid {
+  white-space: pre;
+}
+
+button {
+  margin: 10px;
+  padding : 5px;
+  font-family: Poppins;
+}
+.option{
+  margin-top : 20px;
+  margin-left: -450px;
+  font-family: Poppins;
+}
+label{
+  font-size: large;
+  font-weight: 700;
+  padding: 7px;
+  font-family: Poppins;
+}
+.controls {
+  margin-top : 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: Poppins;
+}
+
+.algorithm-controls,
+.maze-controls,
+.speed-controls {
+  display: flex;
+  align-items: center;
+}
+
+.legend {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+  font-family: Poppins;
+  
+}
+
+
+
+.legend-item {
+  display: flex;
+  margin-right: 40px;
+  font-family: Poppins;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.start-node {
+  background-color: darkgreen;
+  font-family: Poppins;
+}
+
+.finish-node {
+  background-color: red;
+  font-family: Poppins;
+}
+
+.visited-node {
+  background-color: lightgreen;
+  font-family: Poppins;
+}
+
+.path-node {
+  background-color: yellow;
+  font-family: Poppins;
+}
+
+.wall-node {
+  background-color: rgb(7, 5, 21);
+  font-family: Poppins;
+}
+.Header{
+  font-family: Poppins;
+}
+
+
+
+
